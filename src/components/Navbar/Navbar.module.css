@@ -68,7 +68,9 @@ nav {
     }
 }
 
-@media screen and (max-width: 480px) { /* Responsive เมื่อดูผ่าน Mobile */
+@media screen and (max-width: 480px) {
+
+    /* Responsive เมื่อดูผ่าน Mobile */
     .nav_con {
         flex-direction: column;
         height: auto !important;
@@ -117,10 +119,21 @@ nav {
         }
     }
 
+    .bars {
+        /* เพิ่มตรงนี้ */
+        display: block;
+        /* หรือ display: flex; */
+        /* อาจเพิ่ม z-index เพื่อให้แน่ใจว่าอยู่ด้านบนสุด */
+        z-index: 1000;
+    }
 }
 
-@media screen and (min-width:481px){ /* Responsive เมื่อดูผ่าน PC */
-    .mobile_menu, .bars, .mobile_button{
+@media screen and (min-width:481px) {
+
+    /* Responsive เมื่อดูผ่าน PC */
+    .mobile_menu,
+    .bars,
+    .mobile_button {
         display: none;
     }
 }
