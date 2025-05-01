@@ -2,7 +2,7 @@
     overflow: hidden;
     height: 500px;
     color: #fff;
-    background-color: #0085ff;
+    background-color: royalblue;
 
     & .contact_con {
         max-width: 1170px;

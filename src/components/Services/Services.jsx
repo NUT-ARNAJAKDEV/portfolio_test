@@ -9,18 +9,18 @@ function Services() {
             <div className={styles.services_list}>
             <div className={styles.services_items}>
                 <FaCode />
-                <h4>Web Development</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.</p>
+                <h4>Application Development</h4>
+                <p>Develop applications for both desktop and web, focusing on UX/UI, connecting to back-end systems and databases to make the app work efficiently and securely.</p>
             </div>
             <div className={styles.services_items}>
                 <FaPaintbrush />
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.</p>
+                <h4>Database & API Design</h4>
+                <p>Design database structure and develop API to connect various systems to work together efficiently, support secure data management and easy expansion of the system in the future.</p>
             </div>
             <div className={styles.services_items}>
                 <FaDesktop />
-                <h4>Front-end Consulting</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae enim consectetur sapiente necessitatibus neque eos ipsa ullam minima nulla.</p>
+                <h4>Front-end & Back-end Consulting</h4>
+                <p>Provide consultation on both front-end and back-end web development, recommend technologies, system structures, and development approaches that are appropriate for the project's needs.</p>
             </div>
             </div>
         </div>

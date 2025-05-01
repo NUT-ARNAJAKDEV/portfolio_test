@@ -22,14 +22,14 @@
             & svg {
                 height: 80px;
                 width: 80px;
-                color: #0085FF;
+                color: royalblue;
             }
 
             & h4 {
                 margin: 25px 0;
                 font-size: 24px;
                 font-weight: bold;
-                color: #0085FF;
+                color: royalblue;
             }
         }
     }
